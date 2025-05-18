@@ -1,0 +1,110 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+
+body{
+    background-color: #9c6f44;
+}
+
+.title {
+    font-size: xx-large;
+    text-shadow: black 3px 3px 3px;
+    color: white;
+    text-align: left;
+    margin:2vh;
+}
+
+.header {
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    font-size:x-large;
+    margin: 2vh;
+    text-align: left;
+}
+
+.subheader {
+    font-size: large;
+    font-weight:bold;
+    color: black;
+    text-align: left;
+    margin: 2vh;
+}
+
+.divider {
+    width: 35%;
+    height: 2px;
+    border: none;
+    background-color: white;
+    box-shadow: black 2px 2px 2px;
+    margin-left:1%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.tinytext{
+    font-size: x-small;
+    color: black;
+    text-align: left;
+    margin: 2vh;
+}
+
+table {
+    width: 50%;
+    border-collapse:collapse;
+    border: 1px solid white;
+    border-width: 3px;
+    margin: 2vh;
+    box-shadow: 2px 2px 2px black;
+    
+}
+
+td {
+    padding: 1vh;
+    border: 1px solid white;
+    border-width: 1px;
+    background-color: #da9b61;
+}
+
+tr :nth-child(even) {
+    background-color: #b88759;
+}
+
+.tablehead{
+    font-weight: bold;
+    border: 3px solid white;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border: none;
+
+    font-size: large;
+    font-weight:bold;
+    padding:3px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+#autoID {
+    font-size:large;
+    box-sizing: border-box;
+    border: 2px solid white;
+
+    box-shadow: 2px 2px 2px black;
+    background-color: #da9b61;
+}
+
+.box {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+
+    box-shadow: 2px 2px 2px black;
+    background-color: #da9b61;
+    padding: 2vh;
+    margin: 2vh;
+    width: 35%;
+}
